@@ -14,7 +14,7 @@ async function bootstrap() {
     },
   });
   app.listen().then(()=> {
-    console.log('usuarios servicio escuchando')
+    console.log('Servicio de usuarios listo')
   });
 }
 bootstrap();

@@ -9,9 +9,10 @@ const prisma = new PrismaClient()
 export class UsuariosController {
   constructor(private readonly usuariosService: UsuariosService) {}
 
-  @EventPattern('get_users') 
-  async getUser(data:string) {
+  @EventPattern('login_usuario') 
+  async getUser(data) {
     
-    console.log(await prisma.user.findFirst());
+    console.log(data);
+    return 'asdsad';
   }
 }

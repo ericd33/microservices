@@ -27,6 +27,15 @@
       "compilerOptions": {
         "tsConfigPath": "apps/usuarios/tsconfig.app.json"
       }
+    },
+    "endpoint": {
+      "type": "application",
+      "root": "apps/endpoint",
+      "entryFile": "main",
+      "sourceRoot": "apps/endpoint/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/endpoint/tsconfig.app.json"
+      }
     }
   }
 }
